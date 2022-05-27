@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: white url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 80px 50px;
 }
 
 .bloc-md {
@@ -80,7 +80,7 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/*.bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
     position: absolute;
@@ -88,12 +88,13 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-}
 
-.texture-paper::before {
+}*/
+
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -133,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -692,7 +693,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: white!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -736,7 +737,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
+    font-weight:400 ;
 }
 
 .portfolio-thumb {
@@ -763,7 +765,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
 .bgc-dark-slate-blue {
@@ -771,25 +773,34 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ee7b46;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fcab85!important;
+}
+
+
+.desc.tc-white {
+    color: #481802!important;
+}
+
+.contact.tc-white.tc-white {
+    color:white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #ee7b46;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .ltc-white:hover {
@@ -797,7 +808,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #ee7b46!important;
 }
 
 .ltc-atomic-tangerine:hover {
