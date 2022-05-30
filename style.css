@@ -460,7 +460,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
@@ -661,7 +661,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -694,7 +694,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -722,6 +722,12 @@ h4 {
 .black {
     color: rgb(13, 9, 9)!important;
     font-weight:800 ;
+}
+
+.white {
+    color: white!important;
+    font-weight:800 ;
+    font-size: 19px;
 }
 
 .portfolio-thumb {
@@ -757,7 +763,7 @@ h4 {
 }
 
 .tc-white {
-    color: #fcab85!important;
+    color: white!important;
 }
 
 
@@ -770,13 +776,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #ee7b46;
-    color: white!important;
+    background: #f46b2b;
+    color: rgb(2, 1, 1)!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: white!important;
+    background: #fdd54ffb!important;
+    color: rgb(2, 1, 1)!important;
 }
 
 .ltc-black {
