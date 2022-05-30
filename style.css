@@ -80,25 +80,8 @@ a:hover {
     background: top no-repeat;
 }
 
-/*.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 
-}*/
 
-/*.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}*/
-
-.b-parallax {
-    background-attachment: fixed;
-}
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
@@ -736,9 +719,9 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: white!important;
-    font-weight:400 ;
+.black {
+    color: rgb(13, 9, 9)!important;
+    font-weight:800 ;
 }
 
 .portfolio-thumb {
@@ -754,10 +737,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
-}
+
 
 .bold-link {
     font-weight: 900;
@@ -782,7 +762,7 @@ h4 {
 
 
 .desc.tc-white {
-    color: #481802!important;
+    color: #0c0909!important;
 }
 
 .contact.tc-white.tc-white {
@@ -799,12 +779,12 @@ h4 {
     color: white!important;
 }
 
-.ltc-white {
-    color: white!important;
+.ltc-black {
+    color: #090808!important;
 }
 
-.ltc-white:hover {
-    color: #cccccc!important;
+.ltc-black:hover {
+    color: #1259e7!important;
 }
 
 .ltc-atomic-tangerine {
@@ -820,20 +800,15 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
+
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -859,25 +834,14 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
+
 
 @media (max-width: 991px) {
     .container {
         width: 100%;
     }
-    .b-parallax {
-        background-attachment: scroll;
-    }
+   
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
@@ -916,9 +880,7 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    .b-parallax {
-        background-attachment: scroll;
-    }
+   
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
